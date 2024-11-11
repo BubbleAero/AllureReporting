@@ -9,8 +9,8 @@ import ru.netology.DataGenerator;
 
 import java.time.Duration;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import io.qameta.allure.Step;
+import io.qameta.allure.selenide.AllureSelenide;
 
 class CardDeliveryTest {
 
