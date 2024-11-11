@@ -1,3 +1,5 @@
+package test;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.Selenide;
@@ -8,9 +10,6 @@ import org.openqa.selenium.Keys;
 import ru.netology.DataGenerator;
 
 import java.time.Duration;
-
-import io.qameta.allure.Step;
-import io.qameta.allure.selenide.AllureSelenide;
 
 class CardDeliveryTest {
 
